@@ -1,2 +1,2 @@
 $ function
-$ rurik
+$ rurik 123 123 123
