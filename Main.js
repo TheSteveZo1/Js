@@ -1,1 +1,1 @@
-bobik bokik bobik
+$ git clone
