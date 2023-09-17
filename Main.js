@@ -1,11 +1,12 @@
-const person = {
-  name:'bob',
-  age: 25
+const personOne = {
+  name: 'Bob',
+  age: 21
 }
-
-const person2 = {...person}
-
-person2.age = 26
-
-console.log(person2.age)
-console.log(person.age)
+function bobik (person){
+  const newbobik = Object.assign({},person)
+  newbobik.age += 1
+  return newbobik
+}
+const newbobik2 = bobik(personOne)
+console.log(personOne.age)
+console.log(newbobik2.age)
