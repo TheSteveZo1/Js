@@ -1,12 +1,15 @@
-const personOne = {
-  name: 'Bob',
-  age: 21
+let a
+let b
+
+function myFn(){
+  let b
+  a = true
+  b = 10
+  console.log(b)
 }
-function bobik (person){
-  const newbobik = Object.assign({},person)
-  newbobik.age += 1
-  return newbobik
-}
-const newbobik2 = bobik(personOne)
-console.log(personOne.age)
-console.log(newbobik2.age)
+
+myFn()
+
+console.log(a)
+console.log(b)
+  
