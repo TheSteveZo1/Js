@@ -1,7 +1,5 @@
-const myFn = (a,b) =>{
-  let c
-  a = a + 1
-  c = a + b
-  return c
+function cum (value,multiplier = 1){
+  return value * multiplier
 }
-myFn(5,3)
+cum(10,2)
+cum (5)
