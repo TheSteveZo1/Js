@@ -1,13 +1,13 @@
-const personOne = {
-  age : 21,
-  name: 'bob'
-}
+function myFn(a,b){
+  let c
+  a = a + 1
+  c = a + b
+  return c
+} //Объявленная функция
 
-function bobik(person){
-  const newbobik = Object.assign({},person)
-  newbobik.age +=1
-  return newbobik
-}
-const newbobik2 = bobik(personOne)
-console.log(personOne.age)
-console.log(newbobik2.age)
+function(a,b){
+  let c
+  a = a + 1
+  c = a + b
+  return c
+} //Функциональное выражение(Они всегда анонимны)
