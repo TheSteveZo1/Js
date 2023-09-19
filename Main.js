@@ -1,5 +1,11 @@
-function cum (value,multiplier = 1){
-  return value * multiplier
+const newPost = (post, addedAt = Date()) => ({
+  ...post,
+  addedAt,
+})
+
+const firstPost = {
+  id: 1,
+  author: 'Bogdan',
 }
-cum(10,2)
-cum (5)
+
+console.log( newPost(firstPost))
