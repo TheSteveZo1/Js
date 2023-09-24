@@ -1,11 +1,6 @@
-const newPost = (post, addedAt = Date()) => ({
-  ...post,
-  addedAt,
-})
+try {
 
-const firstPost = {
-  id: 1,
-  author: 'Bogdan',
+} catch (error){
+
+  
 }
-
-console.log( newPost(firstPost))
