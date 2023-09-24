@@ -1,9 +1,10 @@
-function myFn(a) {
-  console.log(a);
-}
+const myArray = [1, 2, 3]
+console.log(myArray)
 
-const b = true;
-let c = 10;
+myArray.push(4)
 
+console.log(myArray)
 
-myFn(2 + 3)
+myArray.push(true)
+
+console.log(myArray)
