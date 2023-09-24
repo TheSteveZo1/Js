@@ -1,10 +1,10 @@
 const myArray = [1, 2, 3]
 console.log(myArray)
 
-myArray.pop()
+myArray.unshift
 
 console.log(myArray)
 
-const removedElement = myArray.pop()
+myArray.unshift('abc')
 
 console.log(myArray)
