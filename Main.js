@@ -1,10 +1,9 @@
 const myArray = [1, 2, 3]
 console.log(myArray)
 
-myArray.unshift
+myArray.shift()
+
+const removedElement = myArray.shift()
 
 console.log(myArray)
-
-myArray.unshift('abc')
-
-console.log(myArray) 
+console.log(removedElement)
