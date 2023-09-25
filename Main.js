@@ -1,7 +1,11 @@
-const myArray = [1, 2, 3]
-console.log(myArray)
+const userProfile = {
+  name: 'ANTON',
+  commentsQty: 23,
+  hasSignedAgreement: false,
+}
 
-const newArray = myArray.map(el => el * 3)
+const{ name, commentsQty } = userProfile
+const { hasSignedAgreement } = userProfile
 
-console.log(newArray)
-console.log(myArray)
+console.log(name)
+console.log(commentsQty)
