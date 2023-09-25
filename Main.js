@@ -1,9 +1,7 @@
 const myArray = [1, 2, 3]
 console.log(myArray)
 
-myArray.shift()
+const newArray = myArray.map(el => el * 3)
 
-const removedElement = myArray.shift()
-
+console.log(newArray)
 console.log(myArray)
-console.log(removedElement)
