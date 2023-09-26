@@ -1,6 +1,7 @@
-let val = 10
-
-if (val > 5){
-  val +=20
+const person = {
+  age: 20
 }
-console.log(val)
+
+if (!person.name){
+  console.log('Имя не указано')
+}
