@@ -1,7 +1,5 @@
-const person = {
-  age: 20
-}
+if (){
 
-if (!person.name){
-  console.log('Имя не указано')
+} else {
+  
 }
