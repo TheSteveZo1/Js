@@ -1,14 +1,6 @@
-const userProfile = {
-  name: 'Bogdan',
-  commentsQty: 23,
-  hasSignedAgreement: false,
-}
+let val = 10
 
-const userInfo = ({ name, commentsQty}) => {
-  if (!commentsQty) {
-    return `User ${name} has no comments`
-  }
-  return `User ${name} has ${commentsQty} comments`
+if (val > 5){
+  val +=20
 }
-
-userInfo(userProfile)
+console.log(val)
