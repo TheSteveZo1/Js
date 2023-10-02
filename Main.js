@@ -1,5 +1,6 @@
-const myArray = ['first', 'second', 'third']
+let i = 0
 
-for (let i=0; i < myArray.length; i++) {
-  console.log(myArray[i])
+while (i < 5) {
+  console.log(i)
+  i++
 }
