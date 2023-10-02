@@ -1,11 +1,5 @@
-let i = 0
-console.log(i)
-i++
-console.log(i)
-i++
-console.log(i)
-i++
-console.log(i)
-i++
-console.log(i)
-i++
+const myArray = [true, 'abc', 10]
+
+console.log(myArray[0])
+console.log(myArray[1])
+console.log(myArray[2])
