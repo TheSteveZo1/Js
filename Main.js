@@ -1,6 +1,9 @@
-let i = 0
+const myObject = {
+  x: 10,
+  y: true,
+  z: 'abc'
+}
 
-do {
-  console.log(i)
-  i++
-} while (i < 5)
+for (const key in myObject) {
+  console.log(key, myObject[key])
+}
