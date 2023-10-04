@@ -1,9 +1,5 @@
-const myObject = {
-  x: 10,
-  y: true,
-  z: 'abc'
-}
+const myArray = [true, 10, 'abc', null]
 
-for (const key in myObject) {
-  console.log(key, myObject[key])
+for (const key in myArray) {
+  console.log(myArray[key])
 }
