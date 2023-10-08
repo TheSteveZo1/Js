@@ -1,7 +1,7 @@
 import {
-  one,
+  one as oneRenamed
   two
 } from './moduleone.mjs'
 
-console.log(one)
+console.log(oneRenamed)
 console.log(two)
