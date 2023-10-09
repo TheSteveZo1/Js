@@ -1,7 +1,10 @@
-import {
-  one as oneRenamed
-  two
-} from './moduleone.mjs'
+class Comment {
+  constructor(text){
+    this.text = text
+    this.votesQty = 0
+  }
 
-console.log(oneRenamed)
-console.log(two)
+  upvote(){
+    this.votesQty += 1
+  }
+}
