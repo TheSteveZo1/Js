@@ -8,3 +8,6 @@ class Comment {
     this.votesQty += 1
   }
 }
+const firstComment = new Comment('First comment')
+
+firstComment.
