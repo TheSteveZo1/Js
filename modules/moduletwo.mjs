@@ -1,13 +1,16 @@
 class Comment {
-  constructor(text){
+  constructor(text) {
     this.text = text
     this.votesQty = 0
   }
-
-  upvote(){
+  upvote() {
     this.votesQty += 1
   }
 }
+
 const firstComment = new Comment('First comment')
 
-firstComment.
+firstComment.upvote()
+console.log(firstComment.votesQty)
+firstComment.upvote()
+console.log(firstComment.votesQty)
