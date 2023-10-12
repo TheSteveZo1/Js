@@ -1,6 +1,14 @@
-const firstComment = new Comment('First comment')
+class Comment {
+  constructor(text) {
+    this.text = text
+    this.votesQty = 0
+  }
 
-firstComment.hasOwnProperty('text')
-firstComment.hasOwnProperty('votesQty')
-firstComment.hasOwnProperty('upvote')
-firstComment.hasOwnProperty('hasOwnProperty')
+  upvote() {
+    this.votesQty += 1
+  }
+}
+
+const firstComment = new Comment ('First comment')
+const secondComment = new Comment('Second comment')
+const thirdComment = new Comment('third Comment')
