@@ -7,8 +7,9 @@ class Comment {
   upvote() {
     this.votesQty += 1
   }
+  static mergeComments(first, second){
+    return `${first} ${second}`
+  }
 }
 
-const firstComment = new Comment ('First comment')
-const secondComment = new Comment('Second comment')
-const thirdComment = new Comment('third Comment')
+Comment.mergeComments ('First comment.', 'Second comment.')
