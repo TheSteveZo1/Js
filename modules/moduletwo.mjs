@@ -1,11 +1,4 @@
-const myPromise = new Promise((resolve, reject)=> {
-  
-})
-
-myPromise
-.then (value =>{
-
-})
-.catch(error =>{
-  
-})
+fetch('https://jsonplaceholder.typicode.com/todos')
+  .then(response => response.json())
+  .then(json => console.log(json))
+  .catch(error => console.error(error))
