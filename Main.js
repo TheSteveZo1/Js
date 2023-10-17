@@ -1,7 +1,11 @@
+const timerPromise = () =>
+  new Promise((resolve, reject) =>
+    setTimeout(() => resolve(), 2000))
+
 const asyncFn = async () => {
-  throw new Error('There was an error!')
+  console.log('Timer starts')
+  await timerPromise()
+  console.log('Timer ended')
 }
 
 asyncFn()
-  .then(value => console.log(value))
-  .catch(error => console.log(error.message))
