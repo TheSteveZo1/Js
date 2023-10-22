@@ -9,4 +9,4 @@ const data = await getData(url)
 console.log(data)
 } catch (error) {
   console.log(error.message)
-} 
+} a/
